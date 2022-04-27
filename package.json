@@ -1,0 +1,24 @@
+{
+  "name": "netflix_clone_app",
+  "version": "1.0.0",
+  "description": "Full-Stack-Netflix-Clone-App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server.js"
+  },
+  "author": "Valdas Manzrimas",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.18.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
